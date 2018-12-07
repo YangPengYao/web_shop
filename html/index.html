@@ -1,0 +1,231 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/all.css">
+    <title>六角血拼賣賣</title>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"><i class="fas fa-heart text-info"></i>六角血拼賣賣</a>
+        <div class="dropdown">
+          <button class="btn btn-sm btn-cart" data-toggle="dropdown">
+              <i class="fas fa-shopping-cart fa-2x"></i>
+          </button>
+          <div class="badge badge-pill badge-danger badge-position" data-toggle="dropdown" style="cursor: pointer;">12</div>
+          <div class="dropdown-menu dropdown-menu-right" style="min-width: 300px">
+            <div class="dropdown-item">
+              <h6>已選擇商品</h6>
+              <table class="table mb-0">
+                <tr>
+                  <td>
+                    <a href="#" class="text-secondary" data-toggle="modal" data-target="#delModal" data-title="金牌西裝 1件"><i class="fas fa-trash-alt"></i></a>
+                  </td>
+                  <td>金牌西裝</td>
+                  <td>1件</td>
+                  <td>$520</td>
+                </tr>
+                <tr>
+                  <td>
+                    <a href="#" class="text-secondary"><i class="fas fa-trash-alt" data-toggle="modal" data-target="#delModal" data-title="金牌女裝 1件"></i></a>
+                  </td>
+                  <td>金牌女裝</td>
+                  <td>1件</td>
+                  <td>$480</td>
+                </tr>
+              </table>
+            </div>
+            <div class="dropdown-item">
+              <a href="buy.html" class="btn btn-primary w-100 text-center">結帳去</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <section>
+      <div class="jumbotron jumbotron-fluid jumbotron-bg d-flex align-items-center">
+        <div class="container bg-white-in-jumbotron">
+          <h1 class="display-3"><strong>買到剁手手！最後出清</strong></h1>
+          <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3">
+            <div class="list-group sticky-top">
+              <a href="#list-cloth" data-toggle="list" class="list-group-item list-group-item-action active">
+                <i class="fas fa-suitcase"></i>
+                金牌專賣店
+              </a>
+              <a href="#list-gift" data-toggle="list" class="list-group-item list-group-item-action">
+                <i class="fas fa-gift"></i>
+                禮品區
+              </a>
+              <a href="#list-movie" data-toggle="list" class="list-group-item list-group-item-action disabled">
+                <i class="fas fa-film"></i>
+                影音商品
+              </a>
+              <a href="#list-pet" data-toggle="list" class="list-group-item list-group-item-action disabled">
+                <i class="fas fa-paw"></i>
+                寵物專用
+              </a>
+              <a href="#list-environment" data-toggle="list" class="list-group-item list-group-item-action disabled">
+                <i class="fas fa-tree"></i>
+                居家環境
+              </a>
+            </div>
+          </div>
+          <div class="col-md-9">
+            <div class="input-group mb-3" style="width: 40%;">
+              <input type="text" class="form-control" placeholder="Search">
+              <div class="input-group-append">
+                <button class="btn btn-outline-warning" type="submit"><i class="fas fa-search"></i> Search</button>
+              </div>
+            </div>
+            <div class="tab-content" id="nav-tabContent">
+              <div class="tab-pane fade show active" id="list-cloth" role="tabpanel">
+                <div class="row">
+                  <div class="col-md-4 mb-4">
+                    <div class="card h-100 border-0 border-shadow">
+                      <img class="card-img-top" src="https://images.unsplash.com/photo-1494281258937-45f28753affd?w=1350" alt="Card image cap">
+                      <div class="card-body">
+                        <h5 class="card-title">金牌西裝</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      </div>
+                      <div class="d-flex justify-content-center btn-group mr-2 my-3" role="group">
+                        <a href="suit.html" class="btn btn-outline-secondary">我要買</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4 mb-4">
+                    <div class="card h-100 border-0 border-shadow">
+                      <img class="card-img-top" src="https://images.unsplash.com/photo-1481399124169-87493351c8a1?w=1349" alt="Card image cap">
+                      <div class="card-body">
+                        <h5 class="card-title">金牌女裝</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      </div>
+                      <div class="d-flex justify-content-center btn-group mr-2 my-3" role="group">
+                        <a href="#" class="btn btn-outline-secondary disabled">缺貨中</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4 mb-4">
+                    <div class="card h-100 border-0 border-shadow">
+                      <img class="card-img-top" src="https://images.unsplash.com/photo-1486250944723-86bca2b15b06?w=1351" alt="Card image cap">
+                      <div class="card-body">
+                        <h5 class="card-title">特工眼鏡</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      </div>
+                      <div class="d-flex justify-content-center btn-group mr-2 my-3" role="group">
+                        <a href="#" class="btn btn-outline-secondary disabled">缺貨中</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4 mb-4">
+                    <div class="card h-100 border-0 border-shadow">
+                      <img class="card-img-top" src="https://images.unsplash.com/photo-1497339100210-9e87df79c218?w=1350" alt="Card image cap">
+                      <div class="card-body">
+                        <h5 class="card-title">特工西裝</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      </div>
+                      <div class="d-flex justify-content-center btn-group mr-2 my-3" role="group">
+                        <a href="#" class="btn btn-outline-secondary disabled">缺貨中</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4 mb-4">
+                    <div class="card h-100 border-0 border-shadow">
+                      <img class="card-img-top" src="https://images.unsplash.com/photo-1485373650022-3ed53f62b8f3?w=634" alt="Card image cap">
+                      <div class="card-body">
+                        <h5 class="card-title">變聲領帶</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      </div>
+                      <div class="d-flex justify-content-center btn-group mr-2 my-3" role="group">
+                        <a href="#" class="btn btn-outline-secondary disabled">缺貨中</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <nav>
+                  <ul class="pagination justify-content-center">
+                    <li class="page-item"><a class="page-link" href="#">上一頁</a></li>
+                    <li class="page-item"><a class="page-link" href="#">1</a></li>
+                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item"><a class="page-link" href="#">下一頁</a></li>
+                  </ul>
+                </nav>
+              </div>
+              <div class="tab-pane fade" id="list-gift" role="tabpanel">
+                <div class="row">
+                  <div class="col-md-4 mb-4">
+                    <div class="card h-100 border-0 border-shadow">
+                      <img class="card-img-top" src="https://images.unsplash.com/photo-1482173074468-5b323335debe?w=1350" alt="Card image cap">
+                      <div class="card-body">
+                        <h5 class="card-title">超精緻禮物</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      </div>
+                      <div class="d-flex justify-content-center btn-group mr-2 my-3" role="group">
+                        <a href="#" class="btn btn-outline-secondary disabled">缺貨中</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane fade" id="list-movie" role="tabpanel">...</div>
+              <div class="tab-pane fade" id="list-pet" role="tabpanel">...</div>
+              <div class="tab-pane fade" id="list-environment" role="tabpanel">...</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="bg-light d-flex justify-content-center py-3">
+      <div class="text-secondary text-center">
+        <p>© Copyright 2017 六角血拼賣賣 
+          <a href="#" class="text-info"><i class="fab fa-instagram"> Instagram</i></a>
+          <a href="#" class="text-info"><i class="fab fa-facebook-square"> Facebook</i></a>
+        </p>
+        <p>Made with Bootstrap4</p>
+      </div>
+    </footer>
+
+    <!-- delModal -->
+    <div class="modal fade" id="delModal" tabindex="-1" role="dialog">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header bg-danger text-white">
+            <h5 class="modal-title" id="delModalLabel">Modal title</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            ...
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">關閉</button>
+            <button type="button" class="btn btn-danger text-white" data-dismiss="modal">刪除</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+    <script src="../js/all.js"></script>
+  </body>
+</html>

@@ -1,0 +1,52 @@
+html {
+  height: 100%;
+}
+body {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.content {
+  flex: 1;
+}
+a, a:hover {
+  text-decoration: none;
+}
+.btn {
+  border-width: 2px;
+}
+.btn-cart {
+  background-color: transparent;
+  position: relative;
+}
+.badge-position {
+  position: absolute;
+  top: -1px;
+  right: -1px;
+}
+.jumbotron-bg {
+  background-image: url('https://images.unsplash.com/photo-1477901492169-d59e6428fc90?w=1350');
+  background-size: cover;
+  background-position: center center;
+  min-height: 400px; 
+}
+.bg-cover {
+  background-size: cover;
+  background-position: center center;
+}
+.bg-white-in-jumbotron {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.bg-gray {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.border-shadow {
+  box-shadow: 0 3px 5px rgba(0, 0, 0, .16);
+  transition: box-shadow .5s; 
+}
+.border-shadow:hover {
+  box-shadow: 0 3px 5px rgba(0, 0, 0, .3);
+}
+.alert-rounded {
+  border-radius: 50px;
+}
